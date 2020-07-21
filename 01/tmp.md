@@ -1,3 +1,11 @@
+## ★了解更多
+
+➹：[Redux 基础概念 · 从零开始学 ReactJS（ReactJS 101）](https://wizardforcel.gitbooks.io/reactjs101/Ch07/react-redux-introduction.html)
+
+## ★总结
+
+- 有了思维框架之后，就不会让自己思考问题的时候失焦
+
 ## ★Q&A
 
 1）MVP是什么？
@@ -81,3 +89,28 @@
 ➹：[Everything You Need to Know for Building MVP for Startups](https://www.cloudways.com/blog/building-an-mvp/)
 
 ➹：[MVC，MVP 和 MVVM 的图示 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html)
+
+2）单向绑定与双向绑定
+
+- 全局性数据流使用单向，**好跟踪**。局部性数据流使用双向，**简单，写得爽**……
+- 双向绑定只会在做TODOMVC的时候才会感觉代码少吧，维护起来大点的项目，不能看 -> 我现在都烦死了vue的双向绑定了，维护别人的项目都有想死的感觉
+
+为啥 React 不实现双向绑定呢？
+
+> 不实现双向绑定是React设计决定，因为React的目标从来不是“让开发者写更少的代码”，而是让“代码结构更加清晰易于维护”。
+> 
+> 有的库采用了双向绑定，利于快速上手，但是不得不承受对应的缺点，软件上十全十美的方案几乎没有，就看如何均衡，就看对于特定问题如何取舍。
+
+> 最好是在业务数据上单向数据流，但是在功能组件开发上允许双向绑定，这样综合效用最高
+
+> react对这个问题的处理方法，很朴素，却暗合了**中间件模式**，让上层程序更容易理解
+
+我突然明白 ant-design-vue 为啥没有用 `v-model` 了，而是用了脱糖的写法……
+
+➹：[单向数据绑定和双向数据绑定的优缺点，适合什么场景？ - 知乎](https://www.zhihu.com/question/49964363)
+
+➹：[react不实现双向绑定的原因是什么呢，提高用户动手能力？ - 知乎](https://www.zhihu.com/question/300849926)
+
+➹：[Vue的双向绑定和单向数据流 - 掘金](https://juejin.im/post/5ccbd11df265da035b61a771)
+
+
