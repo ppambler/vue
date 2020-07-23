@@ -50,4 +50,4 @@ click(event, val) {
 
 ➹：[使用事件抛出一个值](https://cn.vuejs.org/v2/guide/components.html#%E4%BD%BF%E7%94%A8%E4%BA%8B%E4%BB%B6%E6%8A%9B%E5%87%BA%E4%B8%80%E4%B8%AA%E5%80%BC)
 
-
+➹：[深入理解e.target与e.currentTarget - 掘金](https://juejin.im/post/59f16ffaf265da43085d4108#comment)
