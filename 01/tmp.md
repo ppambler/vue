@@ -51,3 +51,7 @@ click(event, val) {
 ➹：[使用事件抛出一个值](https://cn.vuejs.org/v2/guide/components.html#%E4%BD%BF%E7%94%A8%E4%BA%8B%E4%BB%B6%E6%8A%9B%E5%87%BA%E4%B8%80%E4%B8%AA%E5%80%BC)
 
 ➹：[深入理解e.target与e.currentTarget - 掘金](https://juejin.im/post/59f16ffaf265da43085d4108#comment)
+
+2）`v-show` 和 `v-if` 的区别？
+
+➹：[v-if和v-show的区别 - 掘金](https://juejin.im/post/5c4ad735518825233b4e980d)
