@@ -204,7 +204,7 @@ SOAP 比较像是你用信封 -> 把信包好之后还要盖印章把它封好 -
 
 ➹：[理解 HTTP 幂等性 - Todd Wei - 博客园](https://www.cnblogs.com/weidagang2046/archive/2011/06/04/idempotence.html)
 
-5）REST？
+6）REST？
 
 前言：
 
@@ -246,15 +246,14 @@ REST -- REpresentational State Transfer
 3. 用 HTTP 协议里的动词来实现资源的添加，修改，删除等操作。即通过 HTTP 动词来实现**资源的状态扭转**：
    1. GET 用来获取资源，POST 用来新建资源（也可以用于更新资源），PUT 用来更新资源，DELETE 用来删除资源。
    2. 比如：
-      1. DELETE http://api.qc.com/v1/friends: 删除某人的好友 （在 http parameter 指定好友 id）
-      2. POST http://api.qc.com/v1/friends: 添加好友
-      3. UPDATE http://api.qc.com/v1/profile: 更新个人资料
-      4. 禁止使用： GET http://api.qc.com/v1/deleteFriend
-
-图例：
-
-![restful api 图例](assets/img/2020-08-04-19-27-44.png)
-
+      1. DELETE `http://api.qc.com/v1/friends`: 删除某人的好友 （在 http parameter 指定好友 id）
+      2. POST `http://api.qc.com/v1/friends`: 添加好友
+      3. UPDATE `http://api.qc.com/v1/profile`: 更新个人资料
+      4. 禁止使用： GET `http://api.qc.com/v1/deleteFriend`
+   3. 图例：
+    
+      ![restful api 图例](assets/img/2020-08-04-19-27-44.png)
+    
 4. Server 和 Client 之间传递某资源的一个表现形式，比如用 JSON，XML 传输文本，或者用 JPG，WebP 传输图片等。当然还可以压缩 HTTP 传输时的数据（on-wire data compression）
 5. 用 HTTP Status Code 传递 Server 的状态信息。比如最常用的 200 表示成功，500 表示 Server 内部错误等
 
