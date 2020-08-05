@@ -281,7 +281,9 @@ REST -- REpresentational State Transfer
 
 ![状态变化](assets/img/2020-08-04-20-02-04.png)
 
-> 我觉得确实应该是状态变化，动作 -> CRUD 资源，资源状态变化 -> 返回结果
+> 我觉得确实应该是翻译成状态变化，而不是状态转移。动作 -> CRUD 资源，资源状态变化 -> 返回结果，而不是把「返回结果」当作是转移！
+> 
+> 当然，你也可以理解成这样：把数据转移到前端UI -> 凭啥要转移？你看我发送的RESTful API……
 
 **REST 的出处**
 
@@ -359,3 +361,9 @@ REST 那章我初读了，整个论文没有读完 =_=
 ➹：[http - What exactly is RESTful programming? - Stack Overflow](https://stackoverflow.com/questions/671118/what-exactly-is-restful-programming/3950863#3950863)
 
 ➹：[关于 Facebook NewsFeed，看这一篇就够了！ - 知乎](https://zhuanlan.zhihu.com/p/20901694)
+
+7）重定向？
+
+➹：[重定向Http status code 303 和 302 - Ryan.Miao - 博客园](https://www.cnblogs.com/woshimrf/p/http-code-302.html)
+
+➹：[http状态码301和302详解及区别——辛酸的探索之路_grandPang的博客-CSDN博客_302状态码](https://blog.csdn.net/grandPang/article/details/47448395)
