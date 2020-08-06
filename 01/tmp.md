@@ -1,3 +1,9 @@
+## ★了解更多
+
+➹：[一种RESTful接口的约定 - Gordon](https://bungder.github.io/2017/07/24/REST/)
+
+➹：[HTTP——需要知道的协议 - 掘金](https://juejin.im/post/6844903937246494727)
+
 ## ★Q&A
 
 1）什么是图表？
