@@ -19,6 +19,7 @@
 ![代码拷贝](assets/img/2020-08-17-17-59-14.png)
 
 如： `https://github.com/ppambler/vue-morney/commit/` + `fe8cc88ad1d5b7b10e00d29ddea9d335c778c841`
+
 第二种：安装 「Copy GitHub URL」插件-> 只拷贝master的路径，不拷贝分支（可能也可以拷贝分支，只是我不知道如何配置！）
 
 > 其实，我最好还是不要建立分支，因为这样在写笔记的时候会很方便……
@@ -39,13 +40,13 @@
 
 ``` json
 {
-  	"github": {
-		"prefix": "/dm",
-		"body": [
-			"[Demo](https://github.com/ppambler/vue-morney/commit/$1)",
-		],
-		"description": "拿到最新提交的远程代码地址"
-	},
+  "github": {
+    "prefix": "/dm",
+    "body": [
+      "[Demo](https://github.com/ppambler/vue-morney/commit/$1)",
+    ],
+    "description": "拿到最新提交的远程代码地址"
+  }
 }
 ```
 
