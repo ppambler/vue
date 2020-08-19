@@ -50,4 +50,24 @@
 }
 ```
 
+补充，可以用这俩个命令拿到版本号：
+
+``` bash
+# 长的
+git rev-parse HEAD
+# 短的
+git rev-parse --short HEAD
+```
+
+![版本号获取](assets/img/2020-08-19-15-18-35.png)
+
+配置一下别名：
+
+``` bashrc
+alias gh="git rev-parse HEAD"
+alias gsh="git rev-parse --short HEAD"
+```
+
 ➹：[让开发效率“飞起”的VS Code 插件 · Issue #80 · ljianshu/Blog](https://github.com/ljianshu/Blog/issues/80)
+
+➹：[git怎么查询当前分支的版本号(commit id) - SegmentFault 思否](https://segmentfault.com/q/1010000004913872)
