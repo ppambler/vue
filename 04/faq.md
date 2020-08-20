@@ -68,6 +68,17 @@ alias gh="git rev-parse HEAD"
 alias gsh="git rev-parse --short HEAD"
 ```
 
+合并分支：
+
+``` bash
+# 切回到 master 分支
+git checkout master
+# 合并 morney-nav 分支
+git merge morney-nav
+# 提交合并过来的版本记录到远程仓库上
+git push
+```
+
 ➹：[让开发效率“飞起”的VS Code 插件 · Issue #80 · ljianshu/Blog](https://github.com/ljianshu/Blog/issues/80)
 
 ➹：[git怎么查询当前分支的版本号(commit id) - SegmentFault 思否](https://segmentfault.com/q/1010000004913872)
