@@ -37,8 +37,8 @@ body {
 }
 
 div.highlight {
-    border: .15em solid #e0dfcc;
-    border-radius: .5em;
+    border: .25em solid #e0dfcc;
+    border-radius: .4em;
     background-color: #f5f2f0;
 }
 
@@ -68,4 +68,10 @@ a {
 
 .markdown-body table tr {
     background-color: #f5f5d5;
+}
+
+.markdown-body code, .markdown-body tt { 
+    background-color: pink;
+    border-radius: .375em;
+    margin: auto 3px;
 }
