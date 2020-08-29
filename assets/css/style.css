@@ -65,3 +65,7 @@ a {
     color: #7a8590;
     border-color: #d1d3d5;
 }
+
+.markdown-body table tr {
+    background-color: #f5f5d5;
+}

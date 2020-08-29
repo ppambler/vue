@@ -2,7 +2,7 @@
 
 # Vue 开发实战
 
-> [Vue 开发实战_Vue_前端框架-极客时间](https://time.geekbang.org/course/intro/100024601)、[课件](https://github.com/ppambler/geektime-vue-1)
+> [教程](https://time.geekbang.org/course/intro/100024601)、[课件](https://github.com/ppambler/geektime-vue-1)
 
 ## ★收获
 
