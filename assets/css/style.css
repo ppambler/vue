@@ -42,6 +42,10 @@ div.highlight {
     background-color: #f5f2f0;
 }
 
+.markdown-body .highlight pre, .markdown-body pre { 
+    background-color: #f5f2f0;
+}
+
 a {
     color: #0859b4;
 }
@@ -53,7 +57,7 @@ a {
     border-color: #d3d3d3;
 }
 
-hr {
+.markdown-body hr {
     background-color: #e0dfcc;
 }
 
