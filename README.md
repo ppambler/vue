@@ -1,6 +1,8 @@
-# Vue
+# [Vue](https://github.com/ppambler/vue)
 
 ## ★目录
+
+> [FAQ](./faq.md)
 
 ### ◇基础知识
 
