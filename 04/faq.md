@@ -8,7 +8,7 @@
 
 ➹：[项目搭建与导航栏实现 · 语雀](https://www.yuque.com/woozyzzz/ybz8i1/cq7i1d)
 
-## 2、每次把代码提交到远程仓库，我都要拷贝一下这次提交的URL到本地的笔记里边？
+## 2、每次把代码提交到远程仓库，我都要拷贝一下这次提交的 URL 到本地的笔记里边？
 
 我不想每次都浏览器里打开这次提交的页面
 
@@ -20,7 +20,7 @@
 
 如： `https://github.com/ppambler/vue-morney/commit/` + `fe8cc88ad1d5b7b10e00d29ddea9d335c778c841`
 
-第二种：安装 「Copy GitHub URL」插件-> 只拷贝master的路径，不拷贝分支（可能也可以拷贝分支，只是我不知道如何配置！）
+第二种：安装 「Copy GitHub URL」插件-> 只拷贝 master 的路径，不拷贝分支（可能也可以拷贝分支，只是我不知道如何配置！）
 
 > 其实，我最好还是不要建立分支，因为这样在写笔记的时候会很方便……
 
@@ -79,6 +79,23 @@ git merge morney-nav
 git push
 ```
 
-➹：[让开发效率“飞起”的VS Code 插件 · Issue #80 · ljianshu/Blog](https://github.com/ljianshu/Blog/issues/80)
+➹：[让开发效率“飞起”的 VS Code 插件 · Issue #80 · ljianshu/Blog](https://github.com/ljianshu/Blog/issues/80)
 
-➹：[git怎么查询当前分支的版本号(commit id) - SegmentFault 思否](https://segmentfault.com/q/1010000004913872)
+➹：[git 怎么查询当前分支的版本号 (commit id) - SegmentFault 思否](https://segmentfault.com/q/1010000004913872)
+
+## 3、如何检测某个包的最新版本？
+
+``` bash
+npm info typescript version
+```
+
+![检测包的最新版本](assets/img/2020-08-31-18-22-23.png)
+
+为啥需要检测？ -> 你用 CRM 大法抄官方代码，结果发现跑不起来！ 于是，你就猜测是不是我安装的依赖包版本过低？
+
+透过上边这行命令，拿到这个包的最新版本 -> 更改 `package.json` 里边包对应的版本号！ -> `npm install / yarn install`（自动卸载旧版本的 `typescript`，然后安装最新版的！） -> 包更新完后就重启服务器！
+
+
+
+
+
