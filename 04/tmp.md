@@ -42,7 +42,7 @@ export { variable1 as name1, variable2 as name2, …, nameN };
 
 而对于「导出列表」这种姿势，外部的`import`的姿势则是 `import {xxx} from 'x.js'`
 
-千万不要认为 `{xxx}`是一种解析赋值呀！-> 这只是样子上看上去是一样罢了！
+千万不要认为 `{xxx}`是一种解析赋值呀！-> 这只是样子上看上去是一样罢了！（`require`那种姿势才是解析赋值）
 
 总之，存在两种 `exports` 导出方式：
 
