@@ -111,3 +111,12 @@ npm info typescript version
 
 很多时候我们需要强制指定类型，如 `event.target as HTMLButtonElement`，因为 Vue 2 和 TS 搭配起来是有问题的，当然，这不是双方各自的问题，而是一搭配起来就出的问题，就像是篮球一样，「5巨头」 也有可能打不赢 「3 巨头 + 2个不是巨头的球员」
 
+## 6、如果你使用 webstorm 出现了爆红？
+
+![webstorm爆红](assets/img/2020-09-11-16-56-50.png)
+
+CPU 不足会引起这个bug！
+
+解决姿势：
+
+![解决爆红](assets/img/2020-09-11-17-00-55.png)
