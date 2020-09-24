@@ -101,7 +101,7 @@ npm info typescript version
 
 ## 5、为啥 Vue 2 要被人吐槽与 TS 不好合作？
 
-因为 `template` 里边的 JS代码，不是 TS 代码，所以这也就不遵守 TS 规则了！ -> 没办法做类型检查！
+因为 `template` 里边的 JS 代码，不是 TS 代码，所以这也就不遵守 TS 规则了！ -> 没办法做类型检查！
 
 如：
 
@@ -109,14 +109,38 @@ npm info typescript version
 
 所以，我们在 `template` 可以瞎写 -> 当然，你得约束自己，不要瞎传值，是字符串那就传字符串，而不是传其它类型的值 -> 总之，做好这件事，需要靠你的**自觉**！
 
-很多时候我们需要强制指定类型，如 `event.target as HTMLButtonElement`，因为 Vue 2 和 TS 搭配起来是有问题的，当然，这不是双方各自的问题，而是一搭配起来就出的问题，就像是篮球一样，「5巨头」 也有可能打不赢 「3 巨头 + 2个不是巨头的球员」
+很多时候我们需要强制指定类型，如 `event.target as HTMLButtonElement`，因为 Vue 2 和 TS 搭配起来是有问题的，当然，这不是双方各自的问题，而是一搭配起来就出的问题，就像是篮球一样，「5 巨头」 也有可能打不赢 「3 巨头 + 2 个不是巨头的球员」
 
 ## 6、如果你使用 webstorm 出现了爆红？
 
-![webstorm爆红](assets/img/2020-09-11-16-56-50.png)
+![webstorm 爆红](assets/img/2020-09-11-16-56-50.png)
 
-CPU 不足会引起这个bug！
+CPU 不足会引起这个 bug！
 
 解决姿势：
 
 ![解决爆红](assets/img/2020-09-11-17-00-55.png)
+
+## 7、在 VS Code 里边，如何配置 import @ 路径提示？
+
+安装 `Path Autocomplete` 插件 -> 在工作区配置 .`vscode/settings.json` 里面这样配置：
+
+``` json
+{
+  "path-autocomplete.excludedItems": {
+    "**/*.js": { "when": "**/*.ts" }, // ignore js files if i'm inside a ts file
+    "**/*.map": { "when": "**" }, // always ignore *.map files
+    "**/{.git,node_modules}": { "when": "**" } // always ignore .git and node_modules folders
+  },
+  "path-autocomplete.pathMappings": {
+    "@": "${folder}/src"
+  },
+}
+```
+
+你敲下`@`，就能感知到`./src`了！
+
+➹：[如何编写具有代码提示的代码，如何配置 vscode 的目录别名 · Issue #21 · Runtu4378/blog](https://github.com/Runtu4378/blog/issues/21)
+
+➹：[vsCode配置import@路径提示 - DY-Tao的个人空间 - OSCHINA - 中文开源技术交流社区](https://my.oschina.net/yuantao/blog/3156053)
+

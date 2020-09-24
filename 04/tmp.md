@@ -52,3 +52,9 @@
 ```
 
 ➹：[position:fixed定位的元素，如何实现绝对居中，并且宽度自适应内容的宽度 - SegmentFault 思否](https://segmentfault.com/q/1010000002986876)
+
+4）TS 接口声明语法？
+
+➹：[对象的类型——接口 · TypeScript 入门教程](https://ts.xcatliu.com/basics/type-of-object-interfaces.html)
+
+➹：[🔌 TS 的 Interface 了解一下？](https://juejin.im/post/6844903799459414029)
