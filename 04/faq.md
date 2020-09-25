@@ -142,5 +142,8 @@ CPU 不足会引起这个 bug！
 
 ➹：[如何编写具有代码提示的代码，如何配置 vscode 的目录别名 · Issue #21 · Runtu4378/blog](https://github.com/Runtu4378/blog/issues/21)
 
-➹：[vsCode配置import@路径提示 - DY-Tao的个人空间 - OSCHINA - 中文开源技术交流社区](https://my.oschina.net/yuantao/blog/3156053)
+➹：[vsCode 配置 import@路径提示 - DY-Tao 的个人空间 - OSCHINA - 中文开源技术交流社区](https://my.oschina.net/yuantao/blog/3156053)
 
+## 8、Webstorm 注释格式化？
+
+![注释格式化](assets/img/2020-09-25-12-23-20.png)
