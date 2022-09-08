@@ -21,7 +21,7 @@
 - [01-自制 UI 框架（简易版）](./06/README.md)
 - [02-旺财记账（Vue / 本地版）](./04/README.md)
 
-### Inbox
+## ★Inbox
 
 - [01-Vue 开发实战](./05/README.md)
 - [02-彻底搞定 Vue3 核心源码](./02/README.md)
